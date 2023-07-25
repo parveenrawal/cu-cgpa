@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: aliceblue;
+}
+/* roote class here ---------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+:root {
+    --colorpri1: #D91F23;
+    --colorpri2: #E52023;
+    --colorpri3: #F52226;
+
+    --colorsec1: #2B2A29;
+    --colorsec2: #383735;
+    --colorsec3: #454342;
+
+    --colorbk1: #D9D9D9;
+    --colorbk2: #D9D9D9;
+    --colorbk3: #D9D9D9;
+
+}
+
+/* root classes are here -----xxxxxxxxxxxxxxxxxxx---------------------- */
+
+.headPri {
+    font-size: 4.8rem;
+    font-weight: 600;
+    color: var(--colorsec2);
+}
+
+.headSec {
+    font-size: 3.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--colorsec2);
+}
+
+.perapri {
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+    color: var(--colorsec3);
+}
+
+/* ---- center class here -----------xxxxxxxxxxxxxxxxx */
+.txtcenter {
+    text-align: center!important;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/* -----margin class here ----------- */
+.margintp1 {
+    margin-top: 1rem;
+}
+
+.margintp2 {
+    margin-top: 2rem;
+}
+
+.margintp3 {
+    margin-top: 3rem;
+}
+
+
+/* nav bar style is here ------xxxxxxxxxxxxxxxxxxxxxxxxxxx------------------------- */
+
+nav{
+    background-color: var(--colorsec1)!important;
+    display: flex!important;
+    justify-content: space-between!important;
+}
+.logo-head{
+    width: 15rem;
+    margin: .8rem 3rem;
+}
+
+
+.container-fluid{
+    display: grid!important;
+    grid-template-columns: 10fr 6fr;
+    width: 110rem;
+    /* border: 2px solid red!important; */
+}
+
+.navbar-collapse > ul > li > a{
+    font-size: 1.6rem!important;
+    color: white!important;
+    margin-right: 10px;
+}
+
+.dropdown-menu{
+    background-color:#ebeaea!important;
+}
+
+.dropdown-item {
+    background-color:  #ebeaea!important;
+    font-size: 1.3rem!important;
+    color: var(--colorsec2);
+}
+
+
+
+/* footer styling is start from here ----xxxxxxxxxxxxxxxxxxxx------------------- */
+
+footer {
+    background-color: var(--colorsec2);
+    height: 20vh;
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 5fr  2fr;
+}
+
+/* footer>div {
+    border: 2px solid red;
+} */
+
+.footer-logo {
+    width: 25rem;
+    padding: 2rem;
+}
+
+.ft-span-head {
+    color: aliceblue;
+    font-size: 1.6rem;
+}
+
+.footer-ul>li {
+    color: aliceblue;
+    font-size: 1.2rem;
+}
+
+.span-add {
+    color: aliceblue;
+    font-size: 1.2rem;
+}
+
+
+
+
+/* tittle bar section style is start from here ------------------xxxxxxxxxx */
+
+.tittle-bar {
+                height: 20rem;
+                /* background-color: rgb(#000000f4, #000000, #000000); */
+                background-image: url(../img/pages-img/page-bg.png);
+                background-position: center;
+                background-size: cover;
+
+            }
+.tittle-txt{
+                font-size: 3.8rem;
+                color: white;
+                font-weight: 600;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding-top: 5.2rem;
+                
+        }
