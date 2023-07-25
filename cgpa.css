@@ -1,0 +1,185 @@
+
+body{
+            background-image: url(./img/pages-img/page-bg.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+    }
+.cgpa-head {
+    color: white;
+    font-size: 3.5rem;
+    padding: 15px;
+    text-align: center;
+    width: auto;
+    background-color: var(--colorpri1);
+
+
+}
+
+#course-row {
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-left: -2%;
+}
+
+#credit-row {
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-left: 13%;
+}
+
+#grade-row {
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-left: 8%;
+}
+
+
+.calculator-box {
+    width: 53rem;
+    border: 2px solid var(--colorsec1);
+    border-radius: 2rem;
+    overflow: hidden;
+    margin: 100px auto;
+    background-color: #fff;
+    /*  text-align: center; */
+}
+
+.insta {
+         width: 3rem;
+       }
+
+.contro {
+                font-size: 1.8rem;
+                color: #fff;
+                margin-top: 2rem;
+        }
+.bio {
+            font-style: none;
+            text-decoration: none;
+            color:  #fa7e1e;
+    }
+
+/* On screens that are 1200px or less, set the width to 75% */
+@media screen and (max-width: 1200px) {
+    .calculator-box {
+        width: 70%;
+    }
+}
+
+/* On screens that are 950px or less, set the width to 75% */
+@media screen and (max-width: 950px) {
+    .calculator-box {
+        width: 75%;
+    }
+}
+
+/* On screens that are 600px or less, set the width to 90% */
+@media screen and (max-width: 600px) {
+    .calculator-box {
+        width: 90%;
+    }
+}
+
+
+p {
+    padding: 20px;
+    font-size: 1.4rem;
+    color: var(--colorsec1);
+    text-align: center;
+    margin-bottom: 0!important;
+}
+
+#course-wrapper,
+form {
+    color: black;
+    padding-left: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input {
+    border: none;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 20%;
+    text-align: center;
+}
+
+select {
+    padding: 15px;
+    border: none;
+    border-radius: 7.5px;
+    width: 20%;
+    /*   height: 30px; */
+}
+
+button {
+    width: 25%;
+    height: 60px;
+    padding: 1px;
+    color: #fff;
+    margin: 5px auto;
+    /*   margin-left: 10px; */
+    border-radius: 35px !important;
+    margin-right: 20px !important;
+    margin-bottom: 20px !important;
+    margin-top: 30px !important;
+    border: none;
+    background-color: var(--colorsec1);
+}
+
+button:hover {
+    padding: 1px;
+    color: #fff;
+    background-color: var(--colorpri3);
+
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.lastp {
+    background-color: var(--colorpri1);
+    margin: none!important;
+}
+
+.lastp p {
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: var(--colorpri1);
+
+}
+
+.courses {
+    font-size: 1.6rem;
+    padding: .5rem;
+    color: var(--colorsec1);
+    background-color: rgb(235, 235, 235);
+    margin: 1rem 2rem;
+
+}
+
+.credit-units {
+    margin: 1rem 2rem;
+    font-size: 1.6rem;
+    color: var(--colorsec1);
+    background-color: rgb(235, 235, 235);
+    
+}
+
+.grade {
+    margin: 1rem 2rem;
+    font-size: 1.6rem;
+    color: var(--colorsec1);
+    background-color: rgb(235, 235, 235);
+        }
